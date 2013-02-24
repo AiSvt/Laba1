@@ -1,52 +1,35 @@
 Laba1
 =====
 
-ipconfig,route
-===========================================================================
-Interface List
- 12...0c ee e6 a8 4e 6d ......Atheros AR9285 802.11b/g/n WiFi Adapter
- 11...00 21 cc 41 19 b8 ......Realtek PCIe FE Family Controller
-  1...........................Software Loopback Interface 1
- 15...00 00 00 00 00 00 00 e0  14...00 00 00 00 00 00 00 e0  16...00 00 00 00 00 00 00 e0 Teredo Tunneling Pseudo-Interface
-===========================================================================
+Windows IP Configuration
 
-IPv4 Route Table
-===========================================================================
-Active Routes:
-Network Destination        Netmask          Gateway       Interface  Metric
-          0.0.0.0          0.0.0.0      192.168.1.1      192.168.1.2     25
-        127.0.0.0        255.0.0.0         On-link         127.0.0.1    306
-        127.0.0.1  255.255.255.255         On-link         127.0.0.1    306
-  127.255.255.255  255.255.255.255         On-link         127.0.0.1    306
-      192.168.1.0    255.255.255.0         On-link       192.168.1.2    281
-      192.168.1.2  255.255.255.255         On-link       192.168.1.2    281
-    192.168.1.255  255.255.255.255         On-link       192.168.1.2    281
-        224.0.0.0        240.0.0.0         On-link         127.0.0.1    306
-        224.0.0.0        240.0.0.0         On-link       192.168.1.2    281
-  255.255.255.255  255.255.255.255         On-link         127.0.0.1    306
-  255.255.255.255  255.255.255.255         On-link       192.168.1.2    281
-===========================================================================
-Persistent Routes:
-  None
 
-IPv6 Route Table
-===========================================================================
-Active Routes:
- If Metric Network Destination      Gateway
- 16     58 ::/0                     On-link
-  1    306 ::1/128                  On-link
- 16     58 2001::/32                On-link
- 16    306 2001:0:4137:9e76:18f6:2bd6:a4b3:c30c/128
-                                    On-link
- 12    281 fe80::/64                On-link
- 16    306 fe80::/64                On-link
- 16    306 fe80::18f6:2bd6:a4b3:c30c/128
-                                    On-link
- 12    281 fe80::69ee:b20d:3900:8015/128
-                                    On-link
-  1    306 ff00::/8                 On-link
- 16    306 ff00::/8                 On-link
- 12    281 ff00::/8                 On-link
-===========================================================================
-Persistent Routes:
-  None
+Wireless LAN adapter ???????????? ??????? ??????????:
+
+   Connection-specific DNS Suffix  . : 
+   Link-local IPv6 Address . . . . . : fe80::69ee:b20d:3900:8015%12
+   IPv4 Address. . . . . . . . . . . : 192.168.1.2
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Default Gateway . . . . . . . . . : 192.168.1.1
+
+Ethernet adapter ??????????? ?? ????????? ????:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter isatap.{9C55DA73-8AF5-40F7-B2E8-0B434B8B6EB0}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter isatap.{4DE48D02-16A8-42FA-A795-636164EA4A54}:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . : 
+
+Tunnel adapter ??????????? ?? ????????? ????* 3:
+
+   Connection-specific DNS Suffix  . : 
+   IPv6 Address. . . . . . . . . . . : 2001:0:4137:9e76:18f6:2bd6:a4b3:c30c
+   Link-local IPv6 Address . . . . . : fe80::18f6:2bd6:a4b3:c30c%16
+   Default Gateway . . . . . . . . . : ::
